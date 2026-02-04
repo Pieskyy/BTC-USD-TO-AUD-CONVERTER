@@ -10,7 +10,7 @@ def btc(): # makes the price a float
 
 # exchange rates
 exchange_key = "Nuh uh uh" # exhcange rates api
-exchange_url = f"https://api.exchangeratesapi.io/v1/latest?access_key= Nuh uh uh &format=1"
+exchange_url = "https://api.exchangeratesapi.io/v1/latest?access_key= Nuh uh uh &format=1"
 
 def exchange_rates():
     response = requests.get(exchange_url)
